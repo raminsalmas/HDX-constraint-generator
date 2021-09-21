@@ -11,13 +11,13 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
-
+path = "Input_files/"
 #-------------------------------------------------------------------------------------
-RFU_EXP = "Alpha_lac.txt" #import the exp. RFU file name
+RFU_EXP = path + "Alpha_lac.txt" #import the exp. RFU file name
 
-RFU_all_model = "RFU_values_all_Alpha_1.txt" #import the all_modelled_RFU file name
+RFU_all_model = path + "RFU_values_all_Alpha_1.txt" #import the all_modelled_RFU file name
 
-Kint = "K_int_Alpha.txt" # Kint file
+Kint = path + "K_int_Alpha.txt" # Kint file
 
 #----------------------------------------------------------------------------------
 
