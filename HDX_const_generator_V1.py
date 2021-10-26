@@ -25,6 +25,7 @@ path = "Input_files/"
 RFU_EXP = path + "Peptide.txt" #The peptide file
 RFU_all_model = path + "Modelled_RFU.txt" #RFU data modelled by the modeller.
 Kint = path + "K_int.txt" # The Kint file
+bound = 2   #The bound applied on the constrained value. 
 
 #----------------------------------------------------------------------------------
 
@@ -187,8 +188,8 @@ with open("Const.txt", 'w') as out:
                         #out.write("%.15f " %(kob[i]))
                      #out.write("  %.15f" %(np.median(kobs_all)))
                      fi = np.log(np.divide(K_int[Ami],kob[i]))
-                     fi1 = np.divide(K_int[Ami], np.exp(fi+2))
-                     fi__1 = np.divide(K_int[Ami], np.exp(fi-2))
+                     fi1 = np.divide(K_int[Ami], np.exp(fi+ bound))
+                     fi__1 = np.divide(K_int[Ami], np.exp(fi- bound))
                      out.write("  %.15f %.15f" %(fi1, fi__1))     
 
 print(res_rep)
