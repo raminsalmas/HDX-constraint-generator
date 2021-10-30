@@ -15,7 +15,7 @@ from scipy.optimize import curve_fit
 
 
 """
-The following files must be put in the "Input_files" folder -
+The three following files must be put in the "Input_files" folder -
 including peptide, kint and model RFU files.
 
 """
@@ -25,13 +25,13 @@ path = "Input_files/"
 RFU_EXP = path + "Peptide.txt" #The peptide file
 RFU_all_model = path + "Modelled_RFU.txt" #RFU data modelled by the modeller.
 Kint = path + "K_int.txt" # The Kint file
-bound = 2   #The bound applied on the constrained value. 
+bound = 2   #The bound applied on the constrained Lnp values. 
 
 #----------------------------------------------------------------------------------
 
 
 """
-It opens and reads the modelled RFU data of all runs,
+It would open and read the model RFU data of all runs,
 output from the modeller. 
 
 """
