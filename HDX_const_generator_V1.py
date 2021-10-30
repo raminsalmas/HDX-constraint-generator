@@ -4,7 +4,7 @@
 """ This script was written in Borysik group in chemistry department 
 of King's College London.
 
-The script generates a const file to be used in the modeller.
+The script generates a const file to be used in modeller.
 
 """
 
