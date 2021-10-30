@@ -15,8 +15,8 @@ from scipy.optimize import curve_fit
 
 
 """
-The following files must be placed in the Input_files folder,
-including the peptide, kint and Modelled RFU files.
+The following files must be put in the "Input_files" folder -
+including peptide, kint and model RFU files.
 
 """
 
