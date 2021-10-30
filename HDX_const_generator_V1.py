@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-""" This script was written by the Borysik group in the Department of Chemistry
+""" This script was written in Borysik group in chemistry department 
 of King's College London.
 
 The script generates a const file to be used in the modeller.
