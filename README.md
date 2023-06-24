@@ -1,1 +1,1 @@
-This script is an HDX modeller's sub-tool on HDXsite (https://hdxsite.nms.kcl.ac.uk/) that is prepared to generate constraint files that could be utilised in modelling if constraint mode is enabled.
+This script is an HDX modeller's sub-tool on HDXsite (https://hdxsite.nms.kcl.ac.uk/) that is prepared to generate constraint files that could be utilised in modelling if constraint mode is enabled. As input data, the script requires K_int, modelled RFU, and peptide information, examples of which are included in the input file folder.
